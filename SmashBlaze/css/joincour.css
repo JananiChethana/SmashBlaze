@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(34, 41, 38, 0.8), rgba(34, 41, 39, 0.8)), url(../img/images2.jpeg) top center no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .cou-reg-container {
+    max-width: 650px;
+    margin: 50px auto;
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .cou-reg-container h2 {
+    color:#0d3807;
+    
+  }
+  form {
+    display: grid;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #0d3807;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  .btn-sub {
+    background-color: #0d3807;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-sub:hover {
+    color: #0d3807;
+    background-color: #2a5824;
+  }
+
+  .btn-del {
+    background-color: #ffffff;
+    color: #0d3807;
+    padding: 10px;
+    border: 1.5px solid #0d3807;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .btn-del:hover {
+    color: #ffffff;
+    background-color: #0d3807;
+  }

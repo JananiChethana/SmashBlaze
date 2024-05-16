@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important; 
+    color: #092032;
+}
+
+a{
+   color: #000000;
+   text-decoration: none;
+   transition: all 0.4s ease ;
+   font-weight: 600;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro h6 {
+    font-weight: 400;
+    color: #020e00;
+    margin: auto;
+}
+
+.intro h1 {
+    color: #2a5824;
+}
+
+.intro p {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* NAVBAR */
+.top-nav {
+    background-color: #0d3807 ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p {
+    margin-bottom: 0%;
+    display: inline-block;
+    margin-right: 16px;
+    color: #d7ecdd; 
+}
+
+.top-nav i,
+.top-nav span {
+    vertical-align: middle;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.social-links a:hover {
+    background-color: #ffffff;
+    color:#0d3807;
+}
+
+.navbar {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: #0d3807;
+
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    color: #2a5824;
+}
+
+.navbar-brand span {
+    color: #092032;
+}
+
+.dropdown-item:hover {
+color: #f3f7f3;
+background-color: #0d3807;
+}
+
+/* BTN */
+.btn {
+    padding: 9px 24px;
+    font-weight: 500;
+}
+
+.btn-brand {
+    background-color: #0d3807;
+    color: #ffffff;
+    border-color: #0d3807;
+}
+
+.btn-brand:hover {
+    color: #0d3807;
+    background-color: #2a5824;
+}
+
+/* SLIDER */
+.slide1 {
+    background: linear-gradient(rgba(34, 41, 38, 0.8), rgba(34, 41, 39, 0.8)), url(../img/images2.jpeg) top center no-repeat;
+    background-size: cover;
+}
+
+.slide2 {
+    background: linear-gradient(rgba(34, 41, 38, 0.8), rgba(34, 41, 39, 0.8)), url(../img/coachbanner.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.slide3 {
+    background: linear-gradient(rgba(34, 41, 38, 0.8), rgba(34, 41, 39, 0.8)), url(../img/home1.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.slide4 {
+    background: linear-gradient(rgba(34, 41, 38, 0.8), rgba(34, 41, 39, 0.8)), url(../img/orga1.webp) top center no-repeat;
+    background-size: cover;
+}
+
+.slide5 {
+    background: linear-gradient(rgba(34, 41, 38, 0.8), rgba(34, 41, 39, 0.8)), url(../img/news1.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+/* OUR CAROUSEL */
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    width: 40px !important;
+    height: 40px !important;
+    display: grid;
+    place-items: center;
+    background-color:rgba(255, 255, 255, 0.2) !important;  
+    margin-top: -30px !important; 
+    color: #ffffff !important;
+    font-weight: 200 !important;
+    font-size: 8px !important;
+    border-radius: 100px !important;
+}
+
+.owl-prev{
+    left: 0;
+}
+
+.owl-next{
+    right: 0;
+}
+
+.owl-prev:hover,
+.owl-next:hover{
+    background-color: #13420d !important;
+}
+
+/* INFOBOX */
+.info-box {
+    display: flex;
+}
+.info-box img {
+    width: 30%;
+    margin-right: 20px;
+}
+
+/* SERVICES */
+.service-box {
+    padding: 32px;
+    box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.service-box img{
+    width: 50%;
+}
+
+.service-box h5 {
+    margin-top: auto;
+}
+
+/* COURTS HOME */
+#courts-slider .owl-next,
+#courts-slider .owl-prev{
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+#courts-slider .owl-next:hover,
+#courts-slider .owl-prev:hover{
+    background-color: #13420d;
+}
+
+.courts {
+    position: relative;
+}
+
+.courts .overlay{
+    background: linear-gradient(to bottom, rgba(8, 42, 56, 0), rgba(6, 29, 44, 0.8));
+    position: absolute;
+    width: 100%;
+    height: 340px;
+    bottom: 0;
+    left: 0;
+}
+
+.courts .content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.courts h3,
+.courts h6 {
+    color: #ffffff;
+}
+
+.courts h6 {
+    font-size: 14px;
+    margin-top: 4px;
+  
+}
+
+.courts h6::before {
+    content: '';
+    height: 2px;
+    width: 24px;
+    background-color: #33964a;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.courts img {
+    width: 100px;
+    height: 240px;
+}
+
+/* COACHES HOME */
+#coaches-slider .owl-next,
+#coaches-slider .owl-prev{
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+#coaches-slider .owl-next:hover,
+#coaches-slider .owl-prev:hover{
+    background-color: #13420d;
+}
+
+.coaches {
+    position: relative;
+}
+
+.coaches .overlay{
+    background: linear-gradient(to bottom, rgba(8, 42, 56, 0), rgba(6, 29, 44, 0.8));
+    position: absolute;
+    width: 100%;
+    height: 340px;
+    bottom: 0;
+    left: 0;
+}
+
+.coaches .content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.coaches h3,
+.coaches h6 {
+    color: #ffffff;
+}
+
+.coaches h6 {
+    font-size: 14px;
+    margin-top: 4px;
+  
+}
+
+.coaches h6::before {
+    content: '';
+    height: 2px;
+    width: 24px;
+    background-color: #33964a;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.coaches img {
+    width: 100px;
+    height: 240px;
+}
+
+/* FOOTER */
+footer {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+    background: linear-gradient(rgba(34, 41, 38, 0.8), rgba(34, 41, 39, 0.8)), url(../img/images2.jpeg) top center no-repeat;
+    background-size:cover;
+}
+
+footer .navbar-brand {
+    color: #ffffff;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+.footer-top {
+    margin-bottom: 40px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.188);
+    padding-top: 15px;   
+}
+
+footer .social-links a {
+    margin-left: 5px;
+    margin: 5px;
+}
+
+/* SEARCH BAR */
+.search-form {
+    position: relative;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 999px;
+    background-color: white;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    padding: 0.75rem;
+    margin: 0 0.5rem;
+    margin-top: 20px;
+    transition: width 0.5s;
+  }
+  
+  .search-input {
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 999px;
+    padding-left: 1rem;
+    font-size: small;
+    pointer-events: none;
+  }
+  
+  .search-button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 999px;
+    background-color: #0d3807;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  
+  .search-icon,
+  .search-close {
+    position: absolute;
+    font-size: 1.25rem;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .search-close {
+    opacity: 0;
+  }
+  
+  /* Active Search */
+  
+  .active-search {
+    max-width: 100%;
+    width: 100rem;
+  }
+  
+  .active-search .search-button {
+    left: calc(100% - 2rem);
+  }
+  
+  .active-search .search-input {
+    pointer-events: initial;
+  }
+  
+  .active-search .search-close {
+    opacity: 1;
+  }
+  
+  .active-search .search-icon {
+    opacity: 0;
+  }
+
+  /* COURT CARD ITEMS */
+  .card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding: 1px;
+  }
+
+  .card{
+    width: 300px;
+    height: 400px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    overflow:hidden;
+    transition: transform 0.6s ease;
+  }
+
+  .card:hover{
+    transform: translateY(-20px);
+  }
+
+  .card img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-container h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+
+  .card-container p{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+  .card-button{
+    display: inline-block;
+    background-color:#13420d ;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+  }
+ 
+  .card-button:hover{
+    color: #0d3807;
+    background-color: #76b06f;
+  }
+
+  /* COACH CART ITEM */
+  @font-face {
+	font-family: pop;
+	src: url(./fonts/Poppins-Medium.ttf);
+}
+
+.coa-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;  
+}
+.coa-container .coa-card{
+        width: 230px;
+        height: 350px;
+        position: relative;
+        border-radius: 10px;
+        background-color: #fff;
+        overflow: hidden;
+        box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
+        margin:15px;  
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+.coa-card::after{
+	content: " ";
+	width: 100%;
+	height: 40%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(11, 37, 23, 0.864);
+    margin-top: 0px;
+}
+.coa-card img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: fit;
+	transition: .6s;
+	box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
+	z-index: 99;
+}
+.coa-card:hover img{
+	transform: scale(.50) translateY(-120px);
+	border-radius: 10px;
+}
+.coa-card .details{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	padding-bottom: 40px;
+	transform: translateY(100%);
+	transition: .6s;
+}
+.coa-card:hover .details{
+	transform: translateY(0);
+}
+.details h3{
+	font-size: 18px;
+	color: rgb(22, 78, 43);
+    
+}
+.details p{
+	font-size: 15px;
+	color: #333;
+	margin-bottom: 7px;
+}
+.details .social-links{
+	display: flex;
+    margin-top: 8px;
+}
+.details .social-links a{
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+	border-radius: 50%;
+	color: #333;
+	background-color: rgb(182, 182, 182);
+	text-decoration: none;
+	transition: .6s;
+	display: grid;
+	place-items: center;
+	font-size: 17px;
+}
+.details .social-links a:hover{
+	transform: rotate(360deg);
+	background-color: rgb(19, 71, 39);
+	color: #fff;
+}
